@@ -15,3 +15,8 @@ sudo touch pjsip_register.conf
 sudo rm -rf extensions_minivm.conf
 
 sudo chown asterisk:asterisk *.conf
+
+sudo mkdir /var/lib/asterisk/moh/devices
+cd /var/lib/asterisk/moh/devices
+sudo wget https://www.voxtip.com.co/files/Epic_Soul_Factory-Tokyo_Lights.gsm
+sudo wget https://www.voxtip.com.co/files/Manu95-A_Long_Way.gsm
