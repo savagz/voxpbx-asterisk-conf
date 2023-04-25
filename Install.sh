@@ -2,28 +2,28 @@
 #sudo git clone https://github.com/savagz/voxpbx-asterisk-conf.git /usr/src/voxpbx
 
 # Copy Conf
-sudo mv conf/extensions_endpoints.conf /etc/asterisk/.
-sudo mv conf/extensions_features.conf /etc/asterisk/.
-sudo mv conf/extensions_outgoing.conf /etc/asterisk/.
-sudo mv conf/extensions_incoming.conf /etc/asterisk/.
-sudo mv conf/extensions_general.conf /etc/asterisk/.
-sudo mv conf/extensions.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/extensions_endpoints.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/extensions_features.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/extensions_outgoing.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/extensions_incoming.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/extensions_general.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/extensions.conf /etc/asterisk/.
 
-sudo mv conf/pjsip_endpoints.conf /etc/asterisk/.
-sudo mv conf/pjsip_trunks.conf /etc/asterisk/.
-sudo mv conf/pjsip_auth.conf /etc/asterisk/.
-sudo mv conf/pjsip_aors.conf /etc/asterisk/.
-sudo mv conf/pjsip_transport.conf /etc/asterisk/.
-sudo mv conf/pjsip_register.conf /etc/asterisk/.
-sudo mv conf/pjsip.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/pjsip_endpoints.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/pjsip_trunks.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/pjsip_auth.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/pjsip_aors.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/pjsip_transport.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/pjsip_register.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/pjsip.conf /etc/asterisk/.
 
-sudo mv conf/confbridge.conf /etc/asterisk/.
-sudo mv conf/musiconhold.conf /etc/asterisk/.
-sudo mv conf/voicemail.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/confbridge.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/musiconhold.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/voicemail.conf /etc/asterisk/.
 
-sudo mv conf/cdr.conf /etc/asterisk/.
-sudo mv conf/res_odbc.conf /etc/asterisk/.
-sudo mv conf/cdr_adaptive_odbc.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/cdr.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/res_odbc.conf /etc/asterisk/.
+sudo mv /usr/src/voxpbx/conf/cdr_adaptive_odbc.conf /etc/asterisk/.
 
 # Conf Removed & Permissions
 cd /etc/asterisk/
