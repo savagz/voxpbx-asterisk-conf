@@ -1,5 +1,5 @@
-#cd /usr/src
-#sudo git clone https://github.com/savagz/voxpbx-asterisk-conf.git /usr/src/voxpbx
+cd /usr/src
+sudo git clone https://github.com/savagz/voxpbx-asterisk-conf.git /usr/src/voxpbx
 
 # Copy Conf
 sudo mv /usr/src/voxpbx/conf/extensions_endpoints.conf /etc/asterisk/.
