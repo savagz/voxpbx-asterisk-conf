@@ -23,6 +23,10 @@ sudo mv confbridge.conf /etc/asterisk/.
 sudo mv musiconhold.conf /etc/asterisk/.
 sudo mv voicemail.conf /etc/asterisk/.
 
+sudo mv cdr.conf /etc/asterisk/.
+sudo mv res_odbc.conf /etc/asterisk/.
+sudo mv cdr_adaptive_odbc.conf /etc/asterisk/.
+
 sudo rm -rf extensions_minivm.conf
 
 cd /etc/asterisk/
@@ -36,3 +40,6 @@ sudo mv /usr/src/voxpbx-asterisk-conf/files/moh/Manu95-A_Long_Way.gsm .
 
 cd /var/lib/asterisk/moh
 sudo chown -R asterisk:asterisk *
+
+cd /usr/src/voxpbx-asterisk-conf/files/odbc
+sudo mv odbc.ini /etc/.
